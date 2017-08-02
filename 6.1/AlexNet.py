@@ -79,7 +79,7 @@ def inference(images):
         weight = tf.Variable(tf.truncated_normal([dim, 4096], stddev=0.04), name='weights')
         biases = tf.Variable(tf.constant(0.1, shape=[4096]), name='biases')
         fc6 = tf.nn.relu(tf.matmul(reshape, weight)+biases, name=scope)
-        print_activations(fc6)
+        print_activations(fc6) 
         parameters +=[weight, biases]
         
     with tf.name_scope('fc7') as scope:
