@@ -1,4 +1,4 @@
-# -*- coding: utf-8 -*-
+﻿# -*- coding: utf-8 -*-
 """
 Spyder Editor
 
@@ -63,7 +63,7 @@ def inference(images):
         conv = tf.nn.conv2d(conv4, kernel, strides=[1, 1, 1, 1], padding='SAME')
         biases = tf.Variable(tf.constant(0.0, shape=[256], dtype=tf.float32), name='biases')
         conv5 = tf.nn.relu(tf.nn.bias_add(conv, biases), name=scope)
-        print_activations(conv4)
+        print_activations(conv5)
         parameters +=[kernel, biases]
     pool5 = tf.nn.max_pool(conv5, ksize=[1, 3, 3, 1], strides=[1, 2, 2, 1], padding='VALID',
                            name='pool5')
