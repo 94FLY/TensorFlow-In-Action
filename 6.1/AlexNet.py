@@ -68,7 +68,7 @@ def inference(images):
     pool5 = tf.nn.max_pool(conv5, ksize=[1, 3, 3, 1], strides=[1, 2, 2, 1], padding='VALID',
                            name='pool5')
     print_activations(pool5)
-    
+     
     #AlexNet前5层卷积层
     return pool5, parameters
     
