@@ -1,0 +1,6 @@
+model_checkpoint_path: "E:/Programming/python/TF-in-action/9.1/model.ckpt-999"
+all_model_checkpoint_paths: "E:/Programming/python/TF-in-action/9.1/model.ckpt-599"
+all_model_checkpoint_paths: "E:/Programming/python/TF-in-action/9.1/model.ckpt-699"
+all_model_checkpoint_paths: "E:/Programming/python/TF-in-action/9.1/model.ckpt-799"
+all_model_checkpoint_paths: "E:/Programming/python/TF-in-action/9.1/model.ckpt-899"
+all_model_checkpoint_paths: "E:/Programming/python/TF-in-action/9.1/model.ckpt-999"
